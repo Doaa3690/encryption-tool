@@ -7,14 +7,15 @@ This is a beginner-friendly web application that allows users to **encrypt and d
 ## 🚀 Live Demo
 
 > (Optional: Add your GitHub Pages or Netlify link here)  
-> [🔗 View Live](https://your-demo-link.com)
+> [🔗 View Live][(http://127.0.0.1:5500/index.html))
 
 ---
 
 ## 📸 Screenshot
 
-> *(Replace with your screenshot if available)*  
-> ![Screenshot](screenshot.png)
+
+![App Screenshot](encryprion1.png)
+![App Screenshot](encryption2.png)
 
 ---
 
@@ -32,9 +33,3 @@ This is a beginner-friendly web application that allows users to **encrypt and d
 - 🔄 **ROT13 Cipher**  
   Shifts each letter by 13 positions. Same function is used for both encrypting and decrypting.
 
----
-
-## 📁 Project Structure
-
-![App Screenshot](encryption1.png)
-![App Screenshot](encryption2.png)
