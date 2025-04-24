@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Set encoding to UTF-8 -->
+  <title>Encryption-Decryption Tool</title> <!-- Page title -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+  <div class="container"> <!-- Main content wrapper -->
+    <h2>Encryption-Decryption Tool</h2> <!-- Heading -->
+
+    <input id="message" placeholder="Enter your message" /> <!-- Input field for message -->
+
+    <select id="method"> <!-- Dropdown for selecting encryption method -->
+      <option value="base64">Base64</option> <!-- Option 1 -->
+      <option value="caesar">Caesar Cipher</option> <!-- Option 2 -->
+      <option value="reverse">Reverse Cipher</option> <!-- Option 3 -->
+      <option value="rot13">ROT13 Cipher</option> <!-- Option 4 -->
+    </select>
+
+    <button onclick="encrypt()">Encrypt</button> <!-- Button to run encryption -->
+    <button onclick="decrypt()">Decrypt</button> <!-- Button to run decryption -->
+
+    <div class="output"> <!-- Section to display results -->
+      <strong>Encrypted:</strong>
+      <span id="encrypted">---</span> <!-- Shows encrypted text -->
+      <strong>Decrypted:</strong>
+      <span id="decrypted">---</span> <!-- Shows decrypted text -->
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    background: #e8f0fc; /* Light blue background */
+    color: #222; /* Dark text color */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full screen height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .container {
+    background: #ffffff; /* White box */
+    padding: 30px; /* Inner spacing */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Soft shadow */
+    width: 400px; /* Fixed width */
+    text-align: center; /* Center text */
+    border: 2px solid #a0c4ff; /* Light blue border */
+  }
+  
+  input, select, button {
+    padding: 10px; /* Padding inside elements */
+    margin: 10px 0; /* Spacing between elements */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  input, select {
+    background: #dbeafe; /* Very light blue */
+    color: #222; /* Text color */
+  }
+  
+  button {
+    background: #3b82f6; /* Blue background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer on hover */
+    transition: background 0.3s; /* Smooth effect */
+  }
+  
+  button:hover {
+    background: #2563eb; /* Darker blue on hover */
+  }
+  
+  .output {
+    margin-top: 20px; /* Spacing above */
+    text-align: left; /* Left-align results */
+    word-wrap: break-word; /* Wrap long words */
+  }
+  
+  .output span {
+    display: block; /* Block element */
+    margin-bottom: 10px; /* Space below */
+    background: #eff6ff; /* Light blue background */
+    padding: 10px; /* Inner space */
+    border-radius: 5px; /* Rounded corners */
+    color: #1d4ed8; /* Blue text */
+  }
+  
